@@ -20,7 +20,7 @@ html,body {
   position: absolute;
   left: 0;
   right: 0;
-  margin: 2em;
+  margin: 5em 1em;
   border-radius: 2px;
   height: 100%;
   /*sand*/
@@ -31,15 +31,4 @@ html,body {
   -moz-box-shadow:0 0 15px rgba(0,0,0,0.3);
   box-shadow:0 0 15px rgba(0,0,0,0.3);
   /*background-color: #F2F7F4;*/
-}
-
-
-/*NAV STYLES-- DRAG INTO SEP CSS LATER*/
-.nav-link {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: #444444;
 }
