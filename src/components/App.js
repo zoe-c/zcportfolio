@@ -1,14 +1,19 @@
 import React, { Component } from 'react';
+
 import '../styles/App.css';
 
-class App extends Component {
+// import components
+// import NavBar from './NavBar.js'
+import MainBody from './MainBody.js'
+
+export default class App extends Component {
   render() {
     return (
       <div className="App">
-      <h1>get moving</h1>
+        <div className="background">
+          <MainBody />
+        </div>
       </div>
-    );
+    )
   }
 }
-
-export default App;
