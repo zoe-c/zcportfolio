@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import '../styles/App.css';
+import '../styles/NavBar.css';
 
 // order links later
 export default class NavBar extends Component {
@@ -8,10 +8,10 @@ export default class NavBar extends Component {
     return (
       <nav className="nav-bar">
         <ul>
-          <li className="nav-link"><a href="#">Work</a></li>
-          <li className="nav-link"><a href="#">About</a></li>
-          <li className="nav-link"><a href="#">Contact</a></li>
-          <li className="nav-link"><a href="#">Resume</a></li>
+          <li className="nav-link"><a href="#">work</a></li>
+          <li className="nav-link"><a href="#">about</a></li>
+          <li className="nav-link"><a href="#">contact</a></li>
+          <li className="nav-link"><a href="#">resume</a></li>
         </ul>
       </nav>
     )

@@ -1,21 +1,23 @@
 .projects {
-  width: 100%;
-  padding: .5em;
+  width: 80vw;
+  height: 80vh;
+  padding: .5em 2em;
   display: flex;
   flex-flow: wrap row;
-  border: solid black 1px;
+  background-color: white;
+  box-shadow:0 1px 5px rgba(0,0,0,0.12);
+  margin: 1em;
+  /*border: solid black 1px;*/
 }
 
 .title {
   width: inherit;
   text-align: center;
-  border: solid black 1px;
 }
 
 .vis-and-blurb {
   width: inherit;
   display: flex;
-  border: solid black 1px;
 }
 
 .proj-visual {
