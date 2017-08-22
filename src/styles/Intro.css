@@ -1,0 +1,18 @@
+/*temp before react bootstrap*/
+
+.intro-container, .name-contact-wrap {
+  width: 100vw;
+  height: 12vw;
+  display: flex;
+  justify-content: center;
+}
+
+#nameSVG {
+  width: 20vw;
+  height: 8vw;
+  background-image: url('../zoe.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:auto;
+  /*border: solid black 1px;*/
+}
