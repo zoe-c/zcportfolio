@@ -5,10 +5,7 @@ import '../styles/MainBody.css';
 // import components
 import NavBar from './NavBar.js'
 import Intro from './Intro.js'
-import Project1 from './Project1.js'
-import Project2 from './Project2.js'
-import Project3 from './Project3.js'
-
+import Projects from './Projects.js'
 
 export default class MainBody extends Component {
   render() {
@@ -17,9 +14,7 @@ export default class MainBody extends Component {
           <NavBar />
           <Intro />
           <div className="projects-container">
-            <Project1 />
-            <Project2 />
-            <Project3 />
+            <Projects />
           </div>
         </div>
     )
