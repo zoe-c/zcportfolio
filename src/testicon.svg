@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 339 339" style="enable-background:new 0 0 339 339;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#App_Icon_Placeholder_65_);}
+	.st1{fill:#FFFFFF;}
+</style>
+<symbol  id="Icon" viewBox="-512 -512 1024 1024">
+	
+		<linearGradient id="App_Icon_Placeholder_65_" gradientUnits="userSpaceOnUse" x1="-443.9207" y1="-443.9202" x2="443.9207" y2="443.9212">
+		<stop  offset="0" style="stop-color:#0000FF"/>
+		<stop  offset="1" style="stop-color:#ED1E79"/>
+	</linearGradient>
+	<path id="App_Icon_Placeholder_22_" class="st0" d="M-155,512h310c102.8,0,154.2,0,209.5-17.5c60.4-22,108-69.6,130-130
+		C512,309.2,512,257.8,512,155v-310c0-102.8,0-154.2-17.5-209.5c-22-60.4-69.6-108-130-130C309.2-512,257.8-512,155-512h-310
+		c-102.8,0-154.2,0-209.5,17.5c-60.4,22-108,69.6-130,130C-512-309.2-512-257.8-512-155v310c0,102.8,0,154.2,17.5,209.5
+		c22,60.4,69.6,108,130,130C-309.2,512-257.8,512-155,512L-155,512"/>
+	<g>
+		<path class="st1" d="M0,64c42.9,0.5,77.6,35.3,77.6,78.1v119.4H14.1v32.6H32v80.9h-63.5v-81.4h17.9V261h-64V141.6
+			C-77.6,98.7-42.9,64,0,64z M0,162.2c17.4,0,31.5-14.1,31.5-31.5S17.4,99.3,0,99.3s-31.5,14.1-31.5,31.5S-17.4,162.2,0,162.2z"/>
+		<path class="st1" d="M202.4-74.4l-38.5,38.5c-12.5-12.5-26-23.3-40.7-32.6L80.3,78.1C67.8,61.8,50.5,49.4,30.4,42.3L70-93.4
+			c-23.3-7.6-47.8-11.4-73.3-11.4c-25,0-49.4,3.8-72.7,11.4l39.6,136.2c-20.1,6.5-37.4,19-50.5,35.3l-42.9-146.5
+			c-14.7,9.2-28.2,20.1-40.7,32.6l-38.5-38.5c19-19,40.7-35.3,63.5-47.8l-25-86.3l1.1-99.8l54.8,83.6l23.9,78.7
+			c28.2-8.7,57.5-13.6,87.9-13.6s60.2,4.9,88.4,13.6l23.3-79.8l54.3-83l1.1,99.8l-25,86.3C162.2-109.6,183.4-93.9,202.4-74.4z"/>
+	</g>
+</symbol>
+<use xlink:href="#Icon"  width="1024" height="1024" x="-512" y="-512" transform="matrix(0.3311 0 0 -0.3311 169.5 169.5)" style="overflow:visible;"/>
+</svg>

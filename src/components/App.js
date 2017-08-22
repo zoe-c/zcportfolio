@@ -3,16 +3,16 @@ import React, { Component } from 'react';
 import '../styles/App.css';
 
 // import components
-// import NavBar from './NavBar.js'
+import NavBar from './NavBar.js'
 import MainBody from './MainBody.js'
 
 export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="background">
-          <MainBody />
-        </div>
+        <NavBar />
+        <MainBody />
+
       </div>
     )
   }
