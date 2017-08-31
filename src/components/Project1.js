@@ -1,49 +1,46 @@
-
 import React, { Component } from 'react';
 
 // bootstrap
-import { PanelGroup } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import { Panel } from 'react-bootstrap';
 
 // styles
 import '../styles/Projects.css';
 
+
 export default class Project1 extends Component {
-  constructor (props) {
-    super (props);
-      this.state = {
-        activeKey: '1',
-      }
-      this.handleSelect = this.handleSelect.bind(this);
-
-  }
-
-  handleSelect(activeKey) {
-    this.setState({ activeKey });
+  constructor(...args) {
+    super(...args);
+    this.state = {
+      open: false
+    };
   }
 
   render() {
     return (
-      <PanelGroup id= "proj1" activeKey={this.state.activeKey} onSelect={this.handleSelect} accordion>
-        <h1 className="title">Title Of Project</h1>
-        <Panel header="see" eventKey="1" className="see">
-            <div className="panel-content">
-              <div className="proj-visual"></div>
-            </div>
-        </Panel>
-        <Panel header="read" eventKey="2" className="read">
-            <div className="panel-content">
-              <div className="proj-blurb">description</div>
-              <div className="build-set">tool kit</div>
-            </div>
-        </Panel>
-        <Panel header="link" eventKey="3" className="link">
+      <div className="project-containers">
+        <Button onClick={ ()=> this.setState({ open: !this.state.open })} block className="proj-buttons">
+          GABBLE
+        </Button>
+        <Panel collapsible expanded={this.state.open} id="proj1" className="project-panels">
           <div className="panel-content">
+            <div className="proj-visual"></div>
+            <div className="proj-blurb">
+              <h3>Description</h3>
+              <p><b>Placeholder text for project description..</b>cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+              Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+              Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+            </div>
+            <div className="build-set">
+              <h3>Build Set</h3>
+              <p>tool | tool | tool | tool | tool</p>
+            </div>
             <div>links</div>
           </div>
         </Panel>
-      </PanelGroup>
-
+      </div>
     );
   }
 }
