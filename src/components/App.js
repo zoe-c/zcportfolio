@@ -4,14 +4,19 @@ import '../styles/App.css';
 
 // import components
 import NavBar from './NavBar.js'
-import MainBody from './MainBody.js'
+import Intro from './Intro.js'
+import Projects from './Projects.js'
+// import MainBody from './MainBody.js'
 
 export default class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App container-fluid">
         <NavBar />
-        <MainBody />
+        <Intro />
+        <div className="work container-fluid">
+          <Projects />
+        </div>
 
       </div>
     )

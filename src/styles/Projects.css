@@ -4,8 +4,10 @@ h1 {
   text-align: center;
 }
 
-#work {
-  width: inherit;
+.work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .project-containers {
@@ -18,16 +20,15 @@ h1 {
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
-  /*border: solid black 1px;*/
 }
 
-
-.panel-content {
+.project-card {
   width: inherit;
-  background-color: #F2F2F2;
+  margin: 2em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #F2F2F2;
 }
 
 .build-set {

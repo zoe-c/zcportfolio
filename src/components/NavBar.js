@@ -16,7 +16,7 @@ export default class NavBar extends Component {
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
-        <Navbar.Collapse >
+        <Navbar.Collapse>
           <Nav pullRight>
             <NavItem  title="Item" href="#">about</NavItem>
             <NavItem  title="Item" href="#work">work</NavItem>
